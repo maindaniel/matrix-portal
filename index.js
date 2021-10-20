@@ -12,7 +12,7 @@ const port = 7000;
 
 const __dirname = path.resolve();
 
-const openWeatherAPIKey = 'e40f474fbdbc35980a33ab6a8407dc7f';
+const openWeatherAPIKey = 'API_KEY_GOES_HERE';
 
 app.get('/', async (req, res) => {
     console.log({__dirname})
